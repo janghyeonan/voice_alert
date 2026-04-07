@@ -1,0 +1,19 @@
+# ── 앱 실행 (voice_alert.py) ─────────────────────────────────────────────────
+# 별도 pip 설치 패키지 없음 — Python 표준 라이브러리만 사용
+#
+#   tkinter   UI 프레임워크 (Python 내장, macOS 번들 포함)
+#   json      알림 데이터 저장/불러오기
+#   threading 백그라운드 알림 체크 루프
+#   subprocess macOS say / afplay 호출
+#   datetime  시간 계산 및 비교
+#
+# macOS 시스템 명령어 (OS 내장 — 별도 설치 불필요):
+#   say      한국어 TTS
+#   afplay   시스템 사운드(.aiff) 재생
+#
+# 최소 Python 버전: 3.10  (int | None 타입 힌트 사용)
+
+# ── PDF 사용설명서 생성 (make_manual.py) ─────────────────────────────────────
+# 아래 패키지는 make_manual.py 실행 시에만 필요합니다.
+# 앱 자체 실행에는 불필요합니다.
+fpdf2>=2.8.0

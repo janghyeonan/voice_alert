@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 개인 알림 데이터 (자동 생성)
+alerts.json
+
+# 생성된 파일
+voice_alert_manual.pdf
+
+# macOS
+.DS_Store
